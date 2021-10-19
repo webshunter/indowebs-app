@@ -42,6 +42,10 @@ const el = function(el) {
         this.el.setAttribute('name', a);
         return this;
     }
+    obj.role = function (a) {
+        this.el.setAttribute('role', a);
+        return this;
+    }
     obj.href = function (a) {
         this.el.setAttribute('href', a);
         return this;

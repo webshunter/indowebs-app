@@ -5,6 +5,9 @@ const rootP = {
         .child(
             div().text("fell like a hmmm")
         )
+        .child(
+            btn().text("btn exit")
+        )
 
 
         document.getElementById('app').innerHTML = '';

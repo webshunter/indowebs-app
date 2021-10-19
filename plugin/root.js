@@ -1,6 +1,6 @@
 const rootP = {
     run: function() {
-        app.Alert('ok');
+        //app.Alert('ok');
         return this;
     },
     runPage: function() {

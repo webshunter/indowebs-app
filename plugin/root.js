@@ -1,6 +1,6 @@
 const rootP = {
     run: function() {
-        AlertApp('hmmmmm');
+        document.getElementById('app').innerHTML = 'text pertama dari auto update file';
         return this;
     },
     runPage: function() {

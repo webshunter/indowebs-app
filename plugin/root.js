@@ -18,7 +18,7 @@ const rootP = {
 
         document.getElementById('app').innerHTML = '';
         document.getElementById('app').appendChild(page.get())
-
+ 
         return this;
     },
     runPage: function() {

@@ -10,7 +10,7 @@ const rootP = {
             .click(function(){
                 ExitApp()
             })
-            .css("display", "fixed")
+            .css("position", "fixed")
             .css("bottom", "10px");
             .css("right", "10px");
         )

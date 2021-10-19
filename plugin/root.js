@@ -12,7 +12,8 @@ const rootP = {
             })
             .fixed()
             .bottom("10px")
-            .right("10px")
+            .right("10px"
+            .size("16pt")
         )
 
 

@@ -182,6 +182,10 @@ const el = function(el) {
         this.el.style.position = "absolute";
         return this;
     }
+    obj.relative = function () {
+        this.el.style.position = "relative";
+        return this;
+    }
     obj.radius = function (a) {
         this.el.style.borderRadius = a;
         return this;

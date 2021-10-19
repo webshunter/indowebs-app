@@ -1,6 +1,6 @@
 {
   "plugin" : [
-    "plugin/root.js",
-    "plugin/el.js"
+    "plugin/el.js",
+    "plugin/root.js"
   ]
 }

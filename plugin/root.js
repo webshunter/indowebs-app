@@ -1,6 +1,7 @@
 const rootP = {
     run: function() {
         document.getElementById('app').innerHTML = `
+            <p>selamat datang di update live app for android with droid script</p>
             <button id="exit-app">Exit App 2</button>
         `;
 

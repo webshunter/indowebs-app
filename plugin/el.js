@@ -226,6 +226,14 @@ const el = function(el) {
         this.el.style.fontSize = a;
         return this;
     }
+    obj.shadow = function (a) {
+        this.el.style.boxShadow = a;
+        return this;
+    }
+    obj.textShadow = function (a) {
+        this.el.style.textShadow = a;
+        return this;
+    }
     obj.fontWeight = function (a) {
         if (a == undefined) {
             a = 'bold';

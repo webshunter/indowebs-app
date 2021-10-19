@@ -229,6 +229,10 @@ const el = function(el) {
         this.el.style.padding = a;
         return this;
     }
+    obj.pdTop = function (a) {
+        this.el.style.paddingTop = a;
+        return this;
+    }
     obj.marginTop = function (a) {
         this.el.style.marginTop = a;
         return this;

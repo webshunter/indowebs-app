@@ -6,7 +6,7 @@ const rootP = {
             div().text("fell like a hmmm")
         )
         .child(
-            btn().text("btn exit")
+            btn().text("x")
             .click(function(){
                 ExitApp()
             })

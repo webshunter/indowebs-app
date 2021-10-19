@@ -1,7 +1,10 @@
 const rootP = {
     run: function() {
 
-        var page = div().text('element app here');
+        var page = div()
+        .child(
+            div().text("fell like a hmmm")
+        )
 
 
         document.getElementById('app').innerHTML = '';

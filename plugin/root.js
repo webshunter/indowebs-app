@@ -7,6 +7,9 @@ const rootP = {
         )
         .child(
             btn().text("btn exit")
+            .click(function(){
+                ExitApp()
+            })
         )
 
 

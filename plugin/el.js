@@ -178,6 +178,7 @@ const el = function(el) {
         this.el.style.position = "fixed";
         return this;
     }
+    
     obj.radius = function (a) {
         this.el.style.borderRadius = a;
         return this;

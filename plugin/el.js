@@ -233,6 +233,18 @@ const el = function(el) {
         this.el.style.paddingTop = a;
         return this;
     }
+    obj.pdBottom = function (a) {
+        this.el.style.paddingBottom = a;
+        return this;
+    }
+    obj.pdLeft = function (a) {
+        this.el.style.paddingLeft = a;
+        return this;
+    }
+    obj.pdRight = function (a) {
+        this.el.style.paddingRight = a;
+        return this;
+    }
     obj.marginTop = function (a) {
         this.el.style.marginTop = a;
         return this;

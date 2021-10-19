@@ -178,7 +178,10 @@ const el = function(el) {
         this.el.style.position = "fixed";
         return this;
     }
-    
+    obj.absolute = function () {
+        this.el.style.position = "absolute";
+        return this;
+    }
     obj.radius = function (a) {
         this.el.style.borderRadius = a;
         return this;

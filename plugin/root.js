@@ -1,6 +1,11 @@
+// start container app
+
 var page = div()
 .width('calc(100vw - 40px)')
 .padding('20px')
+
+// search of product
+
 .child(
     input().width('100%')
     .padding('10px')
@@ -10,6 +15,9 @@ var page = div()
     .marginBottom('10px')
     .hold('ketik untuk mencari aksesoris atau baju.!!!')
 )
+
+// grid menu of app
+
 .child(
     div()
     .css('display', 'grid')

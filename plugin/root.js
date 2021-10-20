@@ -1,5 +1,6 @@
 
 var page = div()
+.width('100%')
 .child(
     div()
     .css('display', 'grid')

@@ -1,12 +1,12 @@
 
 var page = div()
-.width('100%')
+.width('100vw')
 .child(
     div()
     .css('display', 'grid')
     .css('grid-template-columns', 'auto auto auto')
     .child(
-        btn().text("xs").padding('5px')
+        btn().text("xss").padding('5px')
     )
     .child(
         btn().text("xz")

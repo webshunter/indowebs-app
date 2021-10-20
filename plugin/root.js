@@ -1,12 +1,21 @@
 
+
 var page = div()
-.width('100vw')
+.width('100%')
+.child(
+    input().width('100%')
+    .padding('10px')
+    .css('border-radius', '20px')
+    .marginTop('10px')
+    .marginBottom('10px')
+    .hold('ketik untuk mencari aksesoris atau baju.!!!')
+)
 .child(
     div()
     .css('display', 'grid')
     .css('grid-template-columns', 'auto auto auto')
     .child(
-        btn().text("xss").padding('5px')
+        btn().text("xs").padding('5px')
     )
     .child(
         btn().text("xz")

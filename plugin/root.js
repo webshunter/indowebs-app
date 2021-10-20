@@ -7,13 +7,12 @@ const rootP = {
             .grid()
             .gridTemplateColumns('auto auto')
             .child(
-                btn().text("x")
+                btn().text("xs")
             )
             .child(
                 btn().text("xz")
             )
         )
-
 
         document.getElementById('app').innerHTML = '';
         document.getElementById('app').appendChild(page.get())

@@ -2,10 +2,13 @@
 var page = div()
 .child(
     div()
-    .grid()
-    .gridTemplateColumns('auto auto')
+    .css('display', 'grid')
+    .css('grid-template-columns', 'auto auto auto')
     .child(
-        btn().text("xs")
+        btn().text("xs").padding('5px')
+    )
+    .child(
+        btn().text("xz")
     )
     .child(
         btn().text("xz")

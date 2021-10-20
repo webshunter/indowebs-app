@@ -5,7 +5,7 @@ const rootP = {
         .child(
             div()
             .grid()
-            .gridTemplateColumn('auto auto')
+            .gridTemplateColumns('auto auto')
             .child(
                 btn().text("x")
             )

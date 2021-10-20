@@ -194,8 +194,8 @@ const el = function(el) {
         this.el.style.display = "grid";
         return this;
     }
-    obj.gridTemplateColumn = function (a) {
-        this.el.style.gridTemplateColumn = a;
+    obj.gridTemplateColumns = function (a) {
+        this.el.style.gridTemplateColumns = a;
         return this;
     }
     obj.absolute = function () {

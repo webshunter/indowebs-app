@@ -1,7 +1,5 @@
-
-
 var page = div()
-.width('100%')
+.width('100vw')
 .child(
     input().width('100%')
     .padding('10px')

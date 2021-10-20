@@ -15,7 +15,8 @@ page.child(
 // search of product
 
 page.child(
-    input().width('100%')
+    input()
+    .width('100%')
     .padding('10px 20px')
     .css('border-radius', '20px')
     .css('outline', 'none')
@@ -23,6 +24,31 @@ page.child(
     .marginBottom('10px')
     .hold('ketik untuk mencari aksesoris atau baju.!!!')
 );
+
+
+// content of page
+
+page.child(
+    div()
+    .id('board')
+    .load(loadDataBoard)
+)
+
+
+async function loadDataBoard(e){
+    
+    var board = div()
+    .css('display', 'grid')
+    .css('grid-template-columns', 'auto auto auto')
+    .text('content load on')
+    
+    // for content
+    
+    var s = globalThis['board'].parent.appendChild(board.get())
+    
+    
+}
+
 
 // style of menu
 

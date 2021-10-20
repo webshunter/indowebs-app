@@ -182,6 +182,22 @@ const el = function(el) {
         this.el.style.position = "fixed";
         return this;
     }
+    obj.flex = function () {
+        this.el.style.display = "flex";
+        return this;
+    }
+    obj.block = function () {
+        this.el.style.display = "block";
+        return this;
+    }
+    obj.grid = function () {
+        this.el.style.display = "grid";
+        return this;
+    }
+    obj.gridTemplateColumn = function (a) {
+        this.el.style.gridTemplateColumn = a;
+        return this;
+    }
     obj.absolute = function () {
         this.el.style.position = "absolute";
         return this;

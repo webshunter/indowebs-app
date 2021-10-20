@@ -3,17 +3,15 @@ const rootP = {
 
         var page = div()
         .child(
-            div().text("fell like a hmmm")
-        )
-        .child(
-            btn().text("x")
-            .click(function(){
-                ExitApp()
-            })
-            .fixed()
-            .bottom("10px")
-            .right("10px")
-            .size("16pt")
+            div()
+            .grid()
+            .gridTemplateColumn('auto auto')
+            .child(
+                btn().text("x")
+            )
+            .child(
+                btn().text("x")
+            )
         )
 
 

@@ -1,27 +1,17 @@
-const rootP = {
-    run: function() {
 
-        var page = div()
-        .child(
-            div()
-            .grid()
-            .gridTemplateColumns('auto auto')
-            .child(
-                btn().text("xs")
-            )
-            .child(
-                btn().text("xz")
-            )
-        )
+var page = div()
+.child(
+    div()
+    .grid()
+    .gridTemplateColumns('auto auto')
+    .child(
+        btn().text("xs")
+    )
+    .child(
+        btn().text("xz")
+    )
+)
 
-        document.getElementById('app').innerHTML = '';
-        document.getElementById('app').appendChild(page.get())
- 
-        return this;
-    },
-    runPage: function() {
-        return this;
-    }
-};
+document.getElementById('app').innerHTML = '';
 
-rootP.run();
+document.getElementById('app').appendChild(page.get());

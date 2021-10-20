@@ -10,7 +10,7 @@ const rootP = {
                 btn().text("x")
             )
             .child(
-                btn().text("x")
+                btn().text("xz")
             )
         )
 
